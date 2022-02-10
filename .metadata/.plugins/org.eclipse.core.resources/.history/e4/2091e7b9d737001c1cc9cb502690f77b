@@ -1,0 +1,16 @@
+valorInf=int(input("Dime un minimo"))
+valorSup=int(input("Dime un maximo"))
+
+while valorSup<valorInf:
+    valorInf=int(input("Dime un minimo"))
+    valorSup=int(input("Dime un maximo"))
+    
+numero=int(input("Dime un numero"))
+acumulador=0
+contador=0
+while numero!=0:
+    if numero>valorInf and numero<ValorSup: 
+        acumulador=acumulador+numero
+    numero=int(input("Dime un numero"))
+
+    

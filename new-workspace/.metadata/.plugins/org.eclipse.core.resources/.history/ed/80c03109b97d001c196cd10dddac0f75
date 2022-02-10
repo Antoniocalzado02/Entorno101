@@ -1,0 +1,26 @@
+package ExamenJava;
+
+import java.util.Scanner;
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println(notaMusical(String.valueOf(sc.next())));
+
+	}
+	public static double notaMusical(String letrasMusical) {
+		double notaTocada=0;
+		letrasMusical=letrasMusical.toLowerCase();
+		if (letrasMusical.compareTo("do")) {
+			notaTocada=523.25; 
+		}
+		
+		
+		
+		
+		return notaTocada;
+
+	}
+
+}

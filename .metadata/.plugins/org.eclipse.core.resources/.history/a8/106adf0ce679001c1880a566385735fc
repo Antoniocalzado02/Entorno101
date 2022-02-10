@@ -1,0 +1,21 @@
+package com.edu.boletin1;
+
+import java.util.Scanner;
+
+public class Ejercicio21 {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		int numero1=Integer.valueOf(scanner.next());
+		int i=numero1+100;
+		int contador=numero1;
+		int acumulador=numero1;
+		while (contador<i) {
+			contador+=1;
+			acumulador=acumulador+contador;
+		}
+		System.out.println(contador);
+
+	}
+
+}

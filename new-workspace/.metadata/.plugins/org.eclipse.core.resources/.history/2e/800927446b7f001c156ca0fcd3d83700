@@ -1,0 +1,24 @@
+package EjerciciosJava;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		
+		StringBuilder sb = new StringBuilder();
+		
+		
+	}
+	public static String cifradoPalabra(String cadena) {
+		String cadenaVacia="";
+		String abecedario="abcdefghijklmnñopqrstuvwxyz";
+		
+		abecedario.substring(0);
+		
+		
+		
+		
+		
+		return sb.toString;
+	}
+
+}

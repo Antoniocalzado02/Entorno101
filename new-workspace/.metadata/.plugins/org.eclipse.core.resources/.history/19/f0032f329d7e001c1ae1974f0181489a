@@ -1,0 +1,32 @@
+package EjerciciosJava;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		System.out.println(obtenerCaracteres("Juanmanuel"));
+
+	}
+	
+	
+	public static String obtenerCaracteres(String cadenaDeTexto) {
+	
+		boolean numeroPar=true;
+		String cadenaVacia="";
+		
+		
+		
+		for (int i=0; i<cadenaDeTexto.length(); i++) {
+			if(i%2==0) {
+				numeroPar=true;
+				cadenaVacia=cadenaVacia+cadenaDeTexto.charAt(i);
+			}
+		}
+		
+		
+		
+		
+		return cadenaVacia;
+
+	}
+
+}

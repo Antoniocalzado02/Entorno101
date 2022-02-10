@@ -1,0 +1,28 @@
+package EjerciciosJava;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	
+	public static String obtenerCaracteres(String cadenaDeTexto) {
+	
+		boolean numeroPar=true;
+		for (int i=0; i<cadenaDeTexto.length(); i++) {
+			if 
+		}
+		
+		
+		
+		
+		
+		
+		
+		return "";
+
+	}
+
+}

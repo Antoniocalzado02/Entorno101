@@ -1,0 +1,5 @@
+base=int(input("Dime una base"))
+exponente=int(input("Dime un exponente"))
+
+for i in exponente:
+    

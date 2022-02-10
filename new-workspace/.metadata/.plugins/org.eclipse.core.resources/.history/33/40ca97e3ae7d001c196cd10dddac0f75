@@ -1,0 +1,25 @@
+package ExamenJava;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		
+		System.out.println("Dime el dia de la semana");
+		
+		
+
+	}
+	public static int totalEntradas(String diaSemana, int numPersonas) {
+		int numeroEntradas= Integer.valueOf(sc.next())
+		
+		
+		
+		
+		return "";
+
+	}
+
+}

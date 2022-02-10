@@ -1,0 +1,29 @@
+package com.edu.boletin1;
+
+public class Ejercicio6 {
+
+	public static void main(String[] args) {
+		System.out.println(sistemaTemperaturas(6,22));
+
+	}
+	public static String sistemaTemperaturas(int mesIndicado,int diaMes) {
+			
+		String mensaje="";
+		if (mesIndicado>=3 && mesIndicado<=6) {
+			if (diaMes>=20 || diaMes<=21) {
+					mensaje="Es Primavera, la temperatura es de 20º";
+				}
+		}else if(mesIndicado>=6 && mesIndicado<=9) {
+			if (diaMes>=21 || diaMes<=23) {
+				mensaje="Es Verano, la temperatura es de 24º";
+			}
+		}
+	
+		
+		
+		
+		
+		return mensaje;
+	}
+
+}

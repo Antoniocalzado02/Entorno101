@@ -1,0 +1,42 @@
+package cuenta.Bancaria;
+
+public class Cuenta {
+	private double saldoInicial=0.0;
+	
+	public Cuenta() {
+		
+	}
+	
+	public Cuenta(double saldo) {
+		this.saldoInicial=saldo;
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

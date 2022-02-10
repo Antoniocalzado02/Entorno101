@@ -1,0 +1,18 @@
+package com.edu.boletin1;
+
+import java.util.Scanner;
+
+public class Ejercicio21 {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		int numero1=Integer.valueOf(scanner.next());
+		int i;
+		int sumaNumero=numero1;
+		for (i=numero1+1;i<(numero1+100);i++ ) {
+			suma++;
+		}
+
+	}
+
+}

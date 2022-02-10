@@ -1,0 +1,31 @@
+package ExamenJava;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		
+		System.out.println("Dime el numero de entradas que quieres");
+		int numeroEntradas= Integer.valueOf(sc.next());
+		
+		
+		System.out.println("Dime el dia de la semana");
+		int diaSemana=Integer.valueOf(sc.next());
+		
+		if (diaSemana==1 || diaSemana==2 || diaSemana==5 || diaSemana==6 || diaSemana==7){
+			int totalEntrada=numeroEntradas*8;
+		}
+		
+		System.out.println(totalEntrada);
+		
+	
+		
+		
+		
+
+	}
+	
+
+}

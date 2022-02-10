@@ -1,0 +1,17 @@
+package com.edu.boletin1;
+
+public class Ejercicio6 {
+
+	public static void main(String[] args) {
+		System.out.println(sistemaTemperaturas(6,27));
+
+	}
+	public static String sistemaTemperaturas(int mesIndicado,int diaMes) {
+			
+		String mensaje="";
+		
+		
+		return mensaje;
+	}
+
+}

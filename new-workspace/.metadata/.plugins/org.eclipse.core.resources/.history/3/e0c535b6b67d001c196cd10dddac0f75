@@ -1,0 +1,26 @@
+package ExamenJava;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		
+		System.out.println(frecuenciaCardiaca(2022,"23/04/2002"));
+
+	}
+	
+	public static int frecuenciaCardiaca(int anno, String fechaNac) {
+		int totalFcm=0;
+		String annoVacio="";
+		
+		annoVacio=annoVacio+fechaNac.substring(6);
+		int annoEntero=Integer.parseInt(annoVacio);
+		int totalannos=anno-annoEntero;
+		
+		totalFcm=220-totalannos;
+		
+		return totalFcm;
+
+		}
+	
+
+}

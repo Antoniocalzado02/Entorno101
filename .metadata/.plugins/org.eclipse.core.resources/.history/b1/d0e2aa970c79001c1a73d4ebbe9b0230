@@ -1,0 +1,13 @@
+package com.edu.boletin1;
+
+public class Ejercicio9 {
+
+	public static void main(String[] args) {
+		int i=0;
+		do {
+			i++;
+		}while(i<=100);
+
+	}
+
+}

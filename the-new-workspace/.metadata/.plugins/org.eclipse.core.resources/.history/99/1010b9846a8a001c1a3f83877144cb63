@@ -1,0 +1,42 @@
+package maquina.Cafe;
+
+public class Cafe {
+	
+	private Integer cafe=50;
+	private Integer leche=50;
+	private Integer vasos=80;
+	private double monedero=0.0;
+	
+	public Cafe(Integer cafe, Integer leche, Integer vasos, double monedero) {
+		super();
+		this.cafe = cafe;
+		this.leche = leche;
+		this.vasos = vasos;
+		this.monedero = monedero;
+	}
+	public Integer getCafe() {
+		return cafe;
+	}
+	public Integer getLeche() {
+		return leche;
+	}
+	public Integer getVasos() {
+		return vasos;
+	}
+	public double getMonedero() {
+		return monedero;
+	}
+	public void setCafe(Integer cafe) {
+		this.cafe = cafe;
+	}
+	public void setLeche(Integer leche) {
+		this.leche = leche;
+	}
+	public void setVasos(Integer vasos) {
+		this.vasos = vasos;
+	}
+	public void setMonedero(double monedero) {
+		this.monedero = monedero;
+	} 
+
+}

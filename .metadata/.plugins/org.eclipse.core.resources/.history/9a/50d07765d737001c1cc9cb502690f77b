@@ -1,0 +1,11 @@
+valorInf=int(input("Dime un minimo"))
+valorSup=int(input("Dime un maximo"))
+
+while valorSup<valorInf:
+    valorInf=int(input("Dime un minimo"))
+    valorSup=int(input("Dime un maximo"))
+    
+numero=int(input("Dime un numero"))
+
+while numero!=0:
+    

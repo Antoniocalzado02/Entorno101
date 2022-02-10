@@ -1,0 +1,27 @@
+package EjerciciosJava;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	
+	public static String ObtenerCaracteres(String cadenaDeTexto) {
+	
+		boolean banderaPar=true;
+		
+		if (cadenaDeTexto.length()%2==banderaPar) {
+			
+		}
+		
+		
+		
+		
+		
+		return "";
+
+	}
+
+}

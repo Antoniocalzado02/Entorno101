@@ -1,0 +1,45 @@
+package nuevoAvion;
+
+import java.util.Scanner;
+
+public class Crear_Rectangulo {
+	public class Calcular_Rectangulo {
+		
+		Scanner sc= new Scanner(System.in);
+
+		public static void main(String[] args) {
+			Rectangulo calcularPerimetro= calcularRectangulo();
+			
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.println("Si quieres calcular el perimetro pulsa, 1;");
+			System.out.println("Si quieres calcular el area pulsa 2;");
+			
+			double opcion=Double.valueOf(sc.nextLine());
+			
+			if (opcion==1) {
+				System.out.println(calcularPerimetro.calcularPerimetro());
+			}else if (opcion==2) {
+				System.out.println(calcularPerimetro.calcularArea());
+			}
+			
+
+		}
+		
+		public static Rectangulo calcularRectangulo() {
+			Scanner sc = new Scanner(System.in);
+			Rectangulo rectanguloNuevo =null;
+			
+			System.out.println("Dime la longitud");
+			double longitud=Integer.valueOf(sc.nextLine());
+			
+			System.out.println("Dime el ancho");
+			double ancho=Integer.valueOf(sc.nextLine());
+			
+			rectanguloNuevo= new Rectangulo(ancho,longitud);
+			
+			return rectanguloNuevo;
+		}
+	}
+}
+	

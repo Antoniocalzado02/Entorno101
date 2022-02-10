@@ -1,0 +1,26 @@
+valorInf=int(input("Dime un minimo"))
+valorSup=int(input("Dime un maximo"))
+
+while valorSup<valorInf:
+    valorInf=int(input("Dime un minimo"))
+    valorSup=int(input("Dime un maximo"))
+    
+numero=int(input("Dime un numero"))
+acumulador=0
+contador=0
+while numero!=0:
+    if numero>valorInf and numero<valorSup: 
+        acumulador=acumulador+numero
+    elif numero<valorInf or numero>valorSup:
+        contador=contador+1
+    elif numero==valorInf:
+        print("Este numero es igual al minimo", numero)
+    elif numero==valorSup:
+        print("Este numero es igual al maximo", numero)
+    numero=int(input("Dime un numero"))
+    
+print("La suma total de los numeros introducidos dentro del intervalo es:", (acumulador))
+print("La cantidad total de numeros fuera del intervalo son:", (contador))
+    
+
+    

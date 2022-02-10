@@ -1,0 +1,13 @@
+package Persona;
+
+public class GestionFamiliaApp {
+
+	public static void main(String[] args) {
+		Persona antonio=new Persona("Calzado","Antonio","XXX233");
+		Persona juan=new Persona("Calzado","Juan","XXX233");
+		
+		System.out.println(antonio.equals(juan));
+
+	}
+
+}

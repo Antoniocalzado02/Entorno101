@@ -1,0 +1,14 @@
+package com.edu.boletin1;
+
+public class Ejercicio6 {
+
+	public static void main(String[] args) {
+		
+
+	}
+	public static String sistemaTemperaturas(String mesIndicado,int diaMes) {
+			
+	return "";
+	}
+
+}

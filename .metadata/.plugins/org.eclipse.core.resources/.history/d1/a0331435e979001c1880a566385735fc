@@ -1,0 +1,20 @@
+package com.edu.boletin1;
+
+import java.util.Scanner;
+
+public class Ejercicio22 {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		int numero1=Integer.valueOf(scanner.next());;
+		int cuadrado;
+		while(numero1>0) {
+			numero1=Integer.valueOf(scanner.next());;
+			cuadrado=numero1*numero1;
+			System.out.println(cuadrado);
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package cuenta.Bancaria;
+
+public class Cuenta {
+	private saldoInicial;
+	
+
+}
